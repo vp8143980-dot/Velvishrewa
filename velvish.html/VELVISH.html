@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Velvish Advertising — Creative Advertising & Printing</title>
+  <meta name="description" content="Velvish Advertising — Branding, Hoardings, Digital Marketing, Printing, Vehicle Wraps and more. Creative solutions that get noticed." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ --brand:#ef4444; --accent:#0ea5e9; }
+    body{ font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+    .glass{ background: rgba(255,255,255,.6); backdrop-filter: blur(8px) saturate(120%); }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <!-- Top bar -->
+  <div class="bg-slate-900 text-white text-sm">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-2">
+      <div>Call Us: <strong class="ml-2">+919285114455</strong></div>
+      <div class="flex items-center gap-4">
+        <a href="#contact" class="text-sm bg-amber-400 text-black px-3 py-1 rounded-full font-semibold">Get a Quote</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 glass border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-lg bg-[var(--brand)] grid place-items-center text-white font-bold">V</div>
+        <div>
+          <div class="font-extrabold">Velvish Advertising</div>
+          <div class="text-xs text-slate-500 -mt-0.5">Creative — Print — Digital</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#services" class="hover:text-[var(--accent)]">Services</a>
+        <a href="#portfolio" class="hover:text-[var(--accent)]">Portfolio</a>
+        <a href="#about" class="hover:text-[var(--accent)]">About</a>
+        <a href="#contact" class="hover:text-[var(--accent)]">Contact</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden inline-flex items-center justify-center h-10 w-10 rounded-xl border">☰</button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t bg-white">
+      <div class="px-4 py-3 grid gap-2">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center py-20">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">We build brands that are hard to ignore</h1>
+        <p class="mt-4 text-slate-600">Full‑service advertising: outdoor hoardings, branding, printing, signage, vehicle wraps and digital campaigns — tailored for local businesses.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#contact" class="inline-flex items-center gap-2 bg-[var(--brand)] text-white px-5 py-3 rounded-2xl font-semibold">Request a Quote</a>
+          <a href="#portfolio" class="inline-flex items-center gap-2 bg-white border border-slate-200 px-5 py-3 rounded-2xl">View Portfolio</a>
+        </div>
+        <ul class="mt-6 flex flex-wrap gap-4 text-sm text-slate-600">
+          <li class="flex items-center gap-2">✔️ 10+ years experience</li>
+          <li class="flex items-center gap-2">✔️ In‑house printing & installation</li>
+          <li class="flex items-center gap-2">✔️ End to end campaign support</li>
+        </ul>
+      </div>
+      <div class="relative">
+        <div class="rounded-3xl overflow-hidden shadow-xl">
+          <img src="data:image/jpeg;base64,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">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold">Our Services</h2>
+      <p class="text-slate-600 mt-2">End‑to‑end creative & production services for your offline and online presence.</p>
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="p-6 bg-slate-50 rounded-2xl border">
+          <h3 class="font-bold">Outdoor Advertising</h3>
+          <p class="mt-2 text-sm text-slate-600">Hoardings, banners, hoarding installation and maintenance.</p>
+        </div>
+        <div class="p-6 bg-slate-50 rounded-2xl border">
+          <h3 class="font-bold">Printing & Branding</h3>
+          <p class="mt-2 text-sm text-slate-600">Offset, digital printing, business stationery, shop branding.</p>
+        </div>
+        <div class="p-6 bg-slate-50 rounded-2xl border">
+          <h3 class="font-bold">Signage & Vehicle Wraps</h3>
+          <p class="mt-2 text-sm text-slate-600">Indoor/outdoor signage, acrylic, neon flex, vehicle graphics.</p>
+        </div>
+        <div class="p-6 bg-slate-50 rounded-2xl border">
+          <h3 class="font-bold">Digital Marketing</h3>
+          <p class="mt-2 text-sm text-slate-600">Social media, Google Ads, content, and local SEO for brick‑and‑mortar businesses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex items-end justify-between">
+        <div>
+          <h2 class="text-3xl font-extrabold">Selected Work</h2>
+          <p class="text-slate-600 mt-2">A few recent campaigns and installations.</p>
+        </div>
+        <a href="#contact" class="text-sm font-semibold text-[var(--brand)]">Request a case study →</a>
+      </div>
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <figure class="rounded-2xl overflow-hidden border bg-white">
+          <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1200&auto=format&fit=crop" alt="Project 1" class="w-full h-48 object-cover">
+          <figcaption class="p-4">
+            <div class="font-semibold">Retail Hoarding — Downtown</div>
+            <div class="text-sm text-slate-600 mt-1">Design • Print • Install</div>
+          </figcaption>
+        </figure>
+        <figure class="rounded-2xl overflow-hidden border bg-white">
+          <img src="https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1200&auto=format&fit=crop" alt="Project 2" class="w-full h-48 object-cover">
+          <figcaption class="p-4">
+            <div class="font-semibold">Vehicle Wraps — Logistics Fleet</div>
+            <div class="text-sm text-slate-600 mt-1">Branding • Vinyl Wrap</div>
+          </figcaption>
+        </figure>
+        <figure class="rounded-2xl overflow-hidden border bg-white">
+          <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=1200&auto=format&fit=crop" alt="Project 3" class="w-full h-48 object-cover">
+          <figcaption class="p-4">
+            <div class="font-semibold">Shopfront Branding</div>
+            <div class="text-sm text-slate-600 mt-1">Signage • Acrylic • Lighting</div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-12 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-6 items-center">
+      <div>
+        <h2 class="text-2xl font-extrabold">About Velvish Advertising</h2>
+        <p class="mt-3 text-slate-600">We are a local full‑service advertising agency with in‑house production. From concept to installation, we handle everything so you can focus on running your business.</p>
+        <ul class="mt-4 text-sm text-slate-600 grid sm:grid-cols-2 gap-2">
+          <li>• In‑house printing press</li>
+          <li>• Installation & logistics</li>
+          <li>• Creative studio & designers</li>
+          <li>• Pan‑India vendor network</li>
+        </ul>
+      </div>
+      <div>
+        <img src="https://media.licdn.com/dms/image/v2/D5622AQE7quRASCMMPA/feedshare-shrink_800/B56ZY0aUS5GsAo-/0/1744636042278?e=2147483647&v=beta&t=1WHVzCellnj4ENIq_1xWbeLUfwWJuSjsyrU__d-TlGA" alt="Team" class="rounded-2xl w-full object-cover h-60">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16">
+    <div class="max-w-4xl mx-auto px-4">
+      <div class="rounded-3xl bg-white border p-6 shadow">
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-2xl font-extrabold">Get in touch</h3>
+            <p class="mt-2 text-slate-600">Tell us about your project — we’ll respond the same day.</p>
+            <div class="mt-6 text-sm text-slate-600 space-y-3">
+              <div><strong>Address:</strong> 123, Market Road, Rewa, M.P.</div>
+              <div><strong>Phone:</strong> +91 9285114455</div>
+              <div><strong>Email:</strong> info@Velvish.com</div>
+            </div>
+            <div class="mt-4 flex gap-2">
+              <a href="#" class="inline-flex items-center gap-2 px-3 py-2 rounded bg-slate-900 text-white">WhatsApp</a>
+              <a href="#" class="inline-flex items-center gap-2 px-3 py-2 rounded border">Call</a>
+            </div>
+          </div>
+          <form onsubmit="event.preventDefault(); showMsg();" class="space-y-3">
+            <input required class="w-full rounded-xl border px-4 py-3" placeholder="Your name" />
+            <input required class="w-full rounded-xl border px-4 py-3" placeholder="Phone / Email" />
+            <input class="w-full rounded-xl border px-4 py-3" placeholder="Project (e.g., Hoarding, Printing)" />
+            <textarea class="w-full rounded-xl border px-4 py-3" rows="4" placeholder="Brief project details"></textarea>
+            <div class="flex items-center justify-between">
+              <small class="text-slate-500">We respond Mon–Sat, 9am–6pm</small>
+              <button class="bg-[var(--brand)] text-white px-5 py-3 rounded-2xl font-semibold" type="submit">Send Request</button>
+            </div>
+            <p id="formMsg" class="hidden text-emerald-600 font-semibold">Thanks — we’ll contact you shortly.</p>
+          </form>
+        </div>
+      </div>
+      <div class="mt-6 rounded-2xl overflow-hidden border">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.373574496573!2d81.29720897481647!3d24.54174935793769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4269f329d7d5%3A0x317249bf823cfcf7!2sVelvish%20%3A%20Digital%20Marketing%20Agency%20Rewa%20%7C%20Web%20Design%20Rewa%20%7C%20Graphic%20Design%20Rewa%20%7C%20Social%20Media%20%7C%20Training%20%26%20Courses!5e0!3m2!1sen!2sin!4v1756961767084!5m2!1sen!2sin" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-6">
+      <div>
+        <div class="flex items-center gap-3">
+          <div class="h-10 w-10 rounded-lg bg-[var(--brand)] grid place-items-center font-bold">V</div>
+          <div>
+            <div class="font-extrabold">Velvish Advertising</div>
+            <div class="text-sm text-slate-300">Creative • Print • Outdoor</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="font-semibold">Quick Links</p>
+        <ul class="mt-3 text-sm text-slate-300 space-y-2">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-semibold">Contact</p>
+        <div class="mt-3 text-sm text-slate-300">
+          <div>+91 9285114455</div>
+          <div>info@Velvish.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-6 text-center text-slate-400 text-sm">© <span id="year"></span> Velvish Advertising. All rights reserved.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('menuBtn')?.addEventListener('click', ()=> document.getElementById('mobileMenu').classList.toggle('hidden'));
+    function showMsg(){ document.getElementById('formMsg').classList.remove('hidden'); document.getElementById('formMsg').scrollIntoView({behavior:'smooth'}); }
+  </script>
+
+  <!--
+    Customize notes:
+    1) Replace placeholder phone, address and email with real details.
+    2) Swap sample Unsplash images with your project photos.
+    3) Replace Google Maps iframe with your exact location embed link.
+    4) If you want a multi-page site or CMS integration, I can split this into pages or add admin edits.
+  -->
+</body>
+</html>
